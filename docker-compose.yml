@@ -1,7 +1,8 @@
 networks:
   nginx_network_external:
     name: nginx_network_external
-    attachable: true
+    external: true
+    #attachable: true
 services:
   nginx:
     build: .
